@@ -1,4 +1,4 @@
-# HUST-ML-kNN
+# Fast-kNN
 
 CS1807 Chenhui Mo, Implementation of the Machine Learning course of Huazhong University of Science and Technology
 
@@ -10,7 +10,7 @@ The basical implementation of the kNN algorithm. The speed is 7-9 photos per sec
 
 # Release 1.1:
 
-Use priority queue to accelerate finding the wanted distance, the time complexity is O(size * log_2 k), the origin is O(size * k).
+Use priority queue to accelerate finding the wanted distance, the time complexity is $O(size * log_2 k)$, the origin is O(size * k).
 
 The speed is 10-12 photos per second on mnist.
 
